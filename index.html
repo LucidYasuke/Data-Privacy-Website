@@ -4,22 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stolen Data</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="navStyle.css" rel="stylesheet">
   </head>
-
   <body>
-
     <div class="header">
-      <nav class="nav_bar" id="navbar">
-        <ul id="menu">
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="subPages/microsoft.html"> Microsoft </a></li>
-          <li><a href="subPages/facebook.html"> Facebook </a></li>
-          <li><a href="subPages/google.html"> Google </a></li>
-          <li><a href="subPages/tiktok.html"> TikTok </a></li>
-          <li><a href="subPages/government.html"> Government </a></li>
-          <li><a href="subPages/alternatives.html"> Alternatives </a></li>
-          <li><a href="subPages/other.html"> Other </a></li>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Tech</a>
+            <div class="dropdown-content">
+              <a href="subPages/microsoft.html">Microsoft</a>
+              <a href="subPages/facebook.html">Facebook</a>
+              <a href="subPages/google.html">Google</a>
+              <a href="subPages/tiktok.html">TikTok</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Other</a>
+            <div class="dropdown-content">
+              <a href="subPages/government.html">Government</a>
+              <a href="subPages/alternatives.html">Alternatives</a>
+              <a href="subPages/resources.html">Resources</a>
+            </div>
+          </li>
         </ul>
       </nav>
     </div>
@@ -105,8 +113,6 @@ Nunc sed augue lacus viverra vitae. Nulla pellentesque dignissim enim sit amet v
 
     <br>
     
-    <script src="navScript.js"></script>
-
     <h4>Extra Link</h4>
     <iframe src = "navigation.html" height="180" frameBorder="0"></iframe>
   </body>
