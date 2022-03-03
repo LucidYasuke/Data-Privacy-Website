@@ -5,43 +5,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Other</title>
         <link href="../navStyle.css" rel="stylesheet">
+        <link href="../sharedStyle.css" rel="stylesheet">
+        <link href="resources.css" rel="stylesheet">
     </head>
     <body>
-      <div class="navBar">
-        <nav>
+      <header>
+        <div class="navBar">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Tech</a>
+                <div class="dropdown-content">
+                  <a href="microsoft.html">Microsoft</a>
+                  <a href="facebook.html">Facebook</a>
+                  <a href="google.html">Google</a>
+                  <a href="tiktok.html">TikTok</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Other</a>
+                <div class="dropdown-content">
+                  <a href="government.html">Government</a>
+                  <a href="alternatives.html">Alternatives</a>
+                  <a href="resources.html">Resources</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header">
+          <h2>Resources</h2>
+          <hr>
+        </div>
+      </header>
+
+      <main>
+        <div class="facebook">
+          <h3>Facebook (Meta)</h3>
+        </div>
+        <div class="tiktok">
+          <h3>Tiktok</h3>
           <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">Tech</a>
-              <div class="dropdown-content">
-                <a href="microsoft.html">Microsoft</a>
-                <a href="facebook.html">Facebook</a>
-                <a href="google.html">Google</a>
-                <a href="tiktok.html">TikTok</a>
-              </div>
-            </li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">Other</a>
-              <div class="dropdown-content">
-                <a href="government.html">Government</a>
-                <a href="alternatives.html">Alternatives</a>
-                <a href="resources.html">Resources</a>
-              </div>
-            </li>
+            <li><a href="https://www.wired.co.uk/article/tiktok-data-privacy#:~:text=TikTok%20knows%20the%20device%20you,track%20your%20interactions%20with%20advertisers.&text=In%20the%20US%2C%20TikTok%20can,information%20including%20face%20and%20voiceprints." target="_blank">Wired ~ How TikTok Tracks Data</a></li>
           </ul>
-        </nav>
-      </div>
+        </div>
+        <div class="microsoft">
+          <h3>Microsoft</h3>
+        </div>
+      </main>
 
-        <h2>Resources</h2>
-
-        <h3>Facebook (Meta)</h3>
-        <h3>Tiktok</h3>
-        <ul>
-          <li><a href="https://www.wired.co.uk/article/tiktok-data-privacy#:~:text=TikTok%20knows%20the%20device%20you,track%20your%20interactions%20with%20advertisers.&text=In%20the%20US%2C%20TikTok%20can,information%20including%20face%20and%20voiceprints." target="_blank">Wired ~ How TikTok Tracks Data</a></li>
-        </ul>
-
-
-        <h4>Extra Link</h4>
-        <iframe src = "../navigation.html" height="180" frameborder="0"></iframe>
+      <footer>
+        <div class="footer">
+          <br>
+          <h4>Extra Link</h4>
+          <iframe src = "../navigation.html" height="180" frameborder="0"></iframe>
+        </div>
+      </footer>
     </body>
 </html>
