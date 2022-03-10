@@ -4,3 +4,26 @@
     padding-top: 5px;
     padding-left: 25px;
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.vl {
+    border-left: 6px solid #663399;
+    border-radius: 5px;
+    height: 200px;
+    margin-right: 60px;
+  }
+
+  .vl a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .vl a:hover{
+      color: red;
+  }
