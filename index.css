@@ -1,6 +1,35 @@
-.introduction, .algorithm, .section{
+.introduction, .algorithm, .section, .data{
     text-align: left;
     padding: 50px;
     padding-top: 5px;
     padding-left: 25px;
 }
+
+.data table{
+    border-collapse: separate;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.data td, .data th{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.data th {
+    border-top: none;
+}
+
+.data td:first-child, .data th:first-child {
+     border-left: none;
+}
+
+.data table, .data th, .data td{
+    padding: 10px;
+}
+
+.data th, .data td{
+    text-align: right;
+}
+
+
