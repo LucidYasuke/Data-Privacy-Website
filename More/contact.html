@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="../navStyle.css" rel="stylesheet">
+        <link href="../sharedStyle.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <div class="navBar">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Tech</a>
+                <div class="dropdown-content">
+                  <a href="../Tech/microsoft.html">Microsoft</a>
+                  <a href="../Tech/facebook.html">Facebook</a>
+                  <a href="../Tech/google.html">Google</a>
+                  <a href="../Tech/tiktok.html">TikTok</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                  <a href="government.html">Government</a>
+                  <a href="alternatives.html">Alternatives</a>
+                  <a href="resources.html">Resources</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+              </li>
+             <!-- <li style="text-align: right;float: right;"><a href="contact.html">Contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header">
+          <h1>Contact</h1>
+          <hr>
+        </div>
+      </header>
+
+      <main>
+        <div class="user">
+            <h2>Contact Information</h2>
+            <p>- Enter your contact Information</p>
+            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+
+                <h4>Basic</h4>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+
+                <h4>Most Used App</h4>
+                <input type="radio" id="facebook" name="primary_app" value="Facebook">
+                <label for="facebook">Facebook</label><br>
+                <input type="radio" id="instagram" name="primary_app" value="Instagram">
+                <label for="instagram">Instagram</label><br>
+                <input type="radio" id="whatsapp" name="primary_app" value="Whatsapp">
+                <label for="whatsapp">Whatsapp</label><br>
+                <input type="radio" id="tiktok" name="primary_app" value="Tiktok">
+                <label for="tiktok">Tiktok</label>
+
+                <h4>Concern</h4>
+                <input type="checkbox" id="Microsoft" name="microsoft" value="Microsoft">
+                <label for="Microsoft">Microsoft</label><br>
+                <input type="checkbox" id="Meta" name="meta" value="Meta">
+                <label for="Meta">Meta (Facebook)</label><br>
+                <input type="checkbox" id="ByteDance" name="bytedance" value="ByteDance">
+                <label for="ByteDance">ByteDance (TikTok)</label><br>
+                <input type="checkbox" id="Google" name="google" value="Google">
+                <label for="Google">Microsoft</label>
+
+                <h4>Information</h4>
+                <label for="infor">Main information source:</label>
+                <select name="Info" id="info">
+                  <option value="Facebook">Facebook</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Whatsapp">Whatsapp</option>
+                  <option value="TikTok">TikTok</option>
+                  <option value="Google">Google</option>
+                  <option value="Youtube">Youtube</option>
+                </select>
+
+                <h4>Do you care about other countried with your data?</h4>
+                <button style="background-color: rebeccapurple;" type="button">YES</button>
+                <button style="background-color: red;" type="button">NO</button>
+
+                <h4>Final Thoughts: Do you care about your data?</h4>
+                <label for="response">Review of W3Schools:</label>
+
+                <textarea id="response" name="response" rows="4" cols="50">
+                </textarea>
+                <br><br>
+
+                <input name="send-to" value="email" hidden>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <div class="flex-container">
+            <div>
+              <div class="vl">
+                <ul> Main
+                  <li><a href="../index.html" target="_parent">Home</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="vl">
+                <ul> Tech
+                  <li><a href="../Tech/microsoft.html" target="_parent">Microsoft</a></li>
+                  <li><a href="../Tech/facebook.html" target="_parent">Facebook</a></li>
+                  <li><a href="../Tech/google.html" target="_parent">Google</a></li>
+                  <li><a href="../Tech/tiktok.html" target="_parent">TikTok</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="vl">
+                <ul> More
+                  <li><a href="government.html" target="_parent">Government</a></li>
+                  <li><a href="alternatives.html" target="_parent">Alternatives</a></li>
+                  <li><a href="resources.html " target="_parent">Resources</a></li>
+                  <li><a href="contact.html" target="_parent">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>   
+    </body>
+</html>
