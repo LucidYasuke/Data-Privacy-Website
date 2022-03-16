@@ -5,6 +5,11 @@
     padding-left: 25px;
 }
 
+.footer{
+    background-color: #16161a;
+    color: #fffffe;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -19,11 +24,15 @@
     margin-right: 60px;
   }
 
+  .vl ul{
+    list-style-type:square;
+  }
+
   .vl a{
       text-decoration: none;
-      color: black;
+      color: #94a1b2;
   }
 
   .vl a:hover{
-      color: red;
+      color: #7f5af0;
   }

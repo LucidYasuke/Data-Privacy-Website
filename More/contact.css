@@ -5,7 +5,8 @@
     padding-left: 25px;
 }
 
-.user button{
+
+.user input[type=submit], .user button{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -15,4 +16,6 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    
+    border-radius: 5%;
 }
