@@ -21,7 +21,7 @@
 }
 
 .data td:first-child, .data th:first-child {
-     border-left: none;
+    border-left: none;
 }
 
 .data table, .data th, .data td{
@@ -32,4 +32,10 @@
     text-align: right;
 }
 
+#secure-img{
+    width: 60vw;
+    height: auto;
+    float: right; 
+    margin-right: 5px;
+}
 

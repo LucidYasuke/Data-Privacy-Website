@@ -1,13 +1,16 @@
-.facebook, .tiktok, .microsoft{
+.sec{
     text-align: left;
     padding: 50px;
     padding-top: 5px;
     padding-left: 25px;
 }
-.facebook{
-    float: left;
-}
 
-.tiktok{
-    float: left;
-}
+.sec a{
+    text-decoration: none;
+    color: #94a1b2;
+  }
+
+.sec a:hover{
+    color: #7f5af0;
+    text-decoration: underline;
+  }

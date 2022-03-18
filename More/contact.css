@@ -19,3 +19,15 @@
     
     border-radius: 5%;
 }
+
+#yes-button{
+    background-color: rebeccapurple;
+}
+
+#no-button{
+    background-color: red;
+}
+
+#submit-button{
+    background-color: #555555;
+}
