@@ -24,18 +24,86 @@
     border-left: none;
 }
 
-.data table, .data th, .data td{
-    padding: 10px;
-}
-
 .data th, .data td{
     text-align: right;
 }
 
-#secure-img{
-    width: 60vw;
-    height: auto;
-    float: right; 
-    margin-right: 5px;
+@media only screen and (max-width: 672px){
+    .data table, .data th, .data td{
+        padding-right: 2vw;
+        padding-left: 2vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: small;
+    }
+
+    #secure-img{
+        width: 85vw;
+        height: auto;
+    }
 }
 
+@media only screen and (min-width: 673px) and (max-width: 990px)
+{
+    .data table, .data th, .data td{
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: large;
+    }
+
+    #secure-img{
+        width: 50vw;
+        height: auto;
+        float: right; 
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1296px) 
+{   
+    .data table, .data th, .data td{
+        padding-right: 4.5vw;
+        padding-left: 4.5vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: large;
+    }
+
+    #secure-img{
+        width: 50vw;
+        height: auto;
+        float: right; 
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1297px) 
+{
+    .data table, .data th, .data td{
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: large;
+    }
+
+    #secure-img{
+        width: 50vw;
+        height: auto;
+        float: right; 
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+.data h2{
+    font-size: 18.72px;
+    margin: 18.72px 0px;
+}

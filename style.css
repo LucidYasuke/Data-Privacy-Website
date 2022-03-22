@@ -6,6 +6,7 @@
 }
 
 #last{
+    display: block;
     position: relative;
     background-color: #16161a;
     color: #fffffe;
@@ -18,7 +19,7 @@
     align-items: baseline;
 }
 
-.vl {
+.vl{
     border-left: 6px solid #663399;
     border-radius: 5px;
     height: 200px;
