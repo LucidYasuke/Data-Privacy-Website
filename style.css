@@ -6,10 +6,11 @@
 }
 
 #last{
-    display: block;
-    position: relative;
     background-color: #16161a;
     color: #fffffe;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
 }
 
 .flex-container{
