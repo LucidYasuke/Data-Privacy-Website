@@ -30,11 +30,11 @@
 
 @media only screen and (max-width: 672px){
     .data table, .data th, .data td{
-        padding-right: 2vw;
-        padding-left: 2vw;
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
         padding-top: 1vh;
         padding-bottom: 1vh;
-        font-size: small;
+        font-size: xx-small;
     }
 
     #secure-img{

@@ -4,9 +4,37 @@
     padding-top: 10px;
 }
 
-.bytedance, .ccp, .usgov{
+.data{
     text-align: left;
     padding: 50px;
     padding-top: 5px;
     padding-left: 25px;
+}
+
+@media only screen and (max-width: 672px){
+    .vid{
+        width: 40vw;
+        height: 15vh;
+    }
+}
+
+@media only screen and (min-width: 673px) and (max-width: 990px){
+    .vid{
+        width: 40vw;
+        height: 20vh;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1296px){   
+    .vid{
+        width: 45vw;
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 1297px){
+    .vid{
+        width: 40vw;
+        height: 40vh;
+    }
 }
